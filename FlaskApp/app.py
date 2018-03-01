@@ -9,7 +9,8 @@ def main():
 if __name__ == '__main__':
     app.run()
 
-@app.route('/showSignUp')
+@app.route('/SignUp')
+
 def showSignUp():
     return render_template('signup.html')
 
